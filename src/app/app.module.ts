@@ -17,6 +17,7 @@ import { SettingsPage } from '../pages/settings/settings';
 import { HelpPage } from '../pages/help/help';
 import { LegalPage } from '../pages/legal/legal';
 import { PetsPage } from '../pages/pets/pets';
+import { RequestPage } from '../pages/request/request';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { PetsPage } from '../pages/pets/pets';
     SettingsPage,
     HelpPage,
     LegalPage,
-    PetsPage
+    PetsPage,
+    RequestPage
   ],
   imports: [
     IonicModule.forRoot(MyApp),
@@ -44,7 +46,8 @@ import { PetsPage } from '../pages/pets/pets';
     SettingsPage,
     HelpPage,
     LegalPage,
-    PetsPage
+    PetsPage,
+    RequestPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

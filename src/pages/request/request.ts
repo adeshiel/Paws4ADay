@@ -2,21 +2,30 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
 /*
-  Generated class for the Requests page.
+  Generated class for the Request page.
 
   See http://ionicframework.com/docs/v2/components/#navigation for more info on
   Ionic pages and navigation.
 */
 @Component({
-  selector: 'page-requests',
-  templateUrl: 'requests.html'
+  selector: 'page-request',
+  templateUrl: 'request.html'
 })
-export class RequestsPage {
+export class RequestPage{
+
+text = ""
+desc = ""
+requestText = ""
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad RequestsPage');
-  }
+    console.log('ionViewDidLoad RequestPage');
+   }
+
+addReq(){
+	this.requestText = "Request Sent";
+}
+
 
 }

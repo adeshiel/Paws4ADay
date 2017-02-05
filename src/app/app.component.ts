@@ -11,6 +11,7 @@ import { HelpPage } from '../pages/help/help';
 import { SettingsPage } from '../pages/settings/settings';
 import { LegalPage } from '../pages/legal/legal';
 import { PetsPage } from '../pages/pets/pets';
+import { RequestPage } from '../pages/request/request';
 
 @Component({
   templateUrl: 'app.html'
@@ -29,11 +30,13 @@ export class MyApp {
     this.pages = [
       { title: 'Map', component: Page1 },
       { title: 'About', component: AboutPage },
+      { title: 'Requests', component: RequestPage },
       { title: 'History', component: HistoryPage },
       { title: 'Achievements', component: AchievementsPage },
       { title: 'Help', component: HelpPage },
       { title: 'Settings', component: SettingsPage },
       { title: 'Legal', component: LegalPage }
+
     ];
 
   }
