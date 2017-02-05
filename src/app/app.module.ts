@@ -10,13 +10,23 @@ const cloudSettings: CloudSettings = {
 
 import { MyApp } from './app.component';
 import { Page1 } from '../pages/page1/page1';
-import { Page2 } from '../pages/page2/page2';
+import { AboutPage } from '../pages/about/about';
+import { HistoryPage } from '../pages/history/history';
+import { AchievementsPage } from '../pages/achievements/achievements';
+import { SettingsPage } from '../pages/settings/settings';
+import { HelpPage } from '../pages/help/help';
+import { LegalPage } from '../pages/legal/legal';
 
 @NgModule({
   declarations: [
     MyApp,
     Page1,
-    Page2
+    AboutPage,
+    HistoryPage,
+    AchievementsPage,
+    SettingsPage,
+    HelpPage,
+    LegalPage
   ],
   imports: [
     IonicModule.forRoot(MyApp),
@@ -26,7 +36,12 @@ import { Page2 } from '../pages/page2/page2';
   entryComponents: [
     MyApp,
     Page1,
-    Page2
+    AboutPage,
+    HistoryPage,
+    AchievementsPage,
+    SettingsPage,
+    HelpPage,
+    LegalPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

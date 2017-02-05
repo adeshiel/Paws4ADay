@@ -3,8 +3,11 @@ import { Nav, Platform } from 'ionic-angular';
 import { StatusBar, Splashscreen } from 'ionic-native';
 
 import { Page1 } from '../pages/page1/page1';
-import { Page2 } from '../pages/page2/page2';
-
+import { AboutPage } from '../pages/about/about';
+import { HistoryPage } from '../pages/history/history';
+import { AchievementsPage } from '../pages/achievements/achievements';
+import { SettingsPage } from '../pages/settings/settings';
+import { LegalPage } from '../pages/legal/legal';
 
 @Component({
   templateUrl: 'app.html'
@@ -21,8 +24,12 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Page One', component: Page1 },
-      { title: 'Page Two', component: Page2 }
+      { title: 'Map', component: Page1 },
+      { title: 'About', component: AboutPage },
+      { title: 'History', component: HistoryPage },
+      { title: 'Achievements', component: AchievementsPage },
+      { title: 'Settings', component: SettingsPage },
+      { title: 'Legal', component: LegalPage }
     ];
 
   }

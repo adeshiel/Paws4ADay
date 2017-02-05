@@ -45,6 +45,6 @@ export class Page1 {
             console.log('Map is ready!');
     });
 
-  }
+ }
 
 }
