@@ -15,6 +15,8 @@ export class AchievementsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
+  trophies = {bronze: "Bronze", silver: "Silver", gold: "Gold", none: "None"};
+
   ionViewDidLoad() {
     console.log('ionViewDidLoad AchievementsPage');
   }

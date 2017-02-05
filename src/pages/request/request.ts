@@ -13,8 +13,9 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class RequestPage{
 
-text = ""
+req = ""
 desc = ""
+address = ""
 requestText = ""
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {}

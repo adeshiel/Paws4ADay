@@ -15,6 +15,12 @@ export class PetsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
+  catImg = "https://ionicframework.com/dist/preview-app/www/assets/img/thumbnail-kitten-1.jpg"
+  catName = "Luna"
+
+  dogImg = "https://ionicframework.com/dist/preview-app/www/assets/img/thumbnail-puppy-1.jpg"
+  dogName = "Ruby"
+  
   ionViewDidLoad() {
     console.log('ionViewDidLoad PetsPage');
   }

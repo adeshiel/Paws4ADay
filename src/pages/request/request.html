@@ -19,15 +19,27 @@
 
 <ion-content padding>
 
-<label>Name:</label>
-<p align="left"> <input [(ngModel)] ="text"></p>
+<label>Request:</label>
+<p align="left"> <input [(ngModel)] ="req"></p>
 <br/>
 
 <label>Description:</label>
 <p align="left"> <input [(ngModel)] ="desc"></p>
 <br/>
 
+<label>Address:</label>
+<p align="left"> <input [(ngModel)] ="address"></p>
+<br/>
+
+<ion-item>
+  <ion-label>Date</ion-label>
+  <ion-datetime displayFormat="MM/DD/YYYY" [(ngModel)]="myDate"></ion-datetime>
+</ion-item>
+
+
 <button (click)="addReq()"> Request </button>
 <h3>{{requestText}}</h3>
+
+
 
 </ion-content>
