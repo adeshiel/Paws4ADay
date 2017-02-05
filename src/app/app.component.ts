@@ -8,6 +8,7 @@ import { HistoryPage } from '../pages/history/history';
 import { AchievementsPage } from '../pages/achievements/achievements';
 import { SettingsPage } from '../pages/settings/settings';
 import { LegalPage } from '../pages/legal/legal';
+import { PetsPage } from '../pages/pets/pets';
 
 @Component({
   templateUrl: 'app.html'
