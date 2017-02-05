@@ -6,6 +6,8 @@ import { Page1 } from '../pages/page1/page1';
 import { AboutPage } from '../pages/about/about';
 import { HistoryPage } from '../pages/history/history';
 import { AchievementsPage } from '../pages/achievements/achievements';
+import { HelpPage } from '../pages/help/help';
+
 import { SettingsPage } from '../pages/settings/settings';
 import { LegalPage } from '../pages/legal/legal';
 import { PetsPage } from '../pages/pets/pets';
@@ -29,6 +31,7 @@ export class MyApp {
       { title: 'About', component: AboutPage },
       { title: 'History', component: HistoryPage },
       { title: 'Achievements', component: AchievementsPage },
+      { title: 'Help', component: HelpPage },
       { title: 'Settings', component: SettingsPage },
       { title: 'Legal', component: LegalPage }
     ];
